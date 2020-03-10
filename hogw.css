@@ -1,0 +1,31 @@
+#base,
+#navb{
+  background-color:rgb(226, 185, 48);
+  justify-content: center;
+  align-content: center;
+  
+}
+#nav-dois{
+  background-color: #bf900d;
+}
+.img-fluid{
+  max-width: 65%;
+  height: auto;
+  min-width: 25%;
+  
+}
+#nav li{
+  width: 141px;
+  height: 40px;
+}
+#nav li a{
+  font-family: 'Permanent Marker', cursive;
+  color: black;
+}
+#logo {
+  float: left;
+  padding: 3px; /*opcional*/
+  text-align: center;
+  width: auto;
+  height: auto;
+}
