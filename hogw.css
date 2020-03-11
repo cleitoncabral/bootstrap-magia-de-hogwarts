@@ -1,5 +1,5 @@
 #base,
-#navb{
+.bd-navbar{
   background-color:rgb(226, 185, 48);
   justify-content: center;
   align-content: center;
@@ -21,6 +21,7 @@
 #nav li a{
   font-family: 'Permanent Marker', cursive;
   color: black;
+
 }
 #logo {
   float: left;
@@ -28,4 +29,7 @@
   text-align: center;
   width: auto;
   height: auto;
+}
+#botao{
+  float: right;
 }

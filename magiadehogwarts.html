@@ -2,32 +2,54 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title> Magia de Hogwarts</title>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
     <link href="hogw.css" rel="stylesheet">
 </head>
 <body>
-      <nav class="navbar-nav navbar-expand-lg" id="navb"> 
-         <div class="text-center">     
-            <a class="navbar-brand">
-               <img src="img/hogwartslogo.png" class="img-fluid">
-             </a>  
-            </div>
-          <button class="navbar-toggler navbar-dark align-right" data-toggle="collapse" data-target="#menu"  > 
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          </nav>      
-      <nav class="navbar-nav  navbar-expand-lg " id="nav-dois">
-          <div class="collapse navbar-collapse justify-content-lg-center" id="menu">
-             <ul class="nav justify-content-center" id="nav">
-                <li class="nav-item active"> <a class="nav-link" href="#"> Grifinória</a></li>
-                <li class="nav-item"> <a class="nav-link" href="#"> Sonserina</a></li>
-                <li class="nav-item"> <a class="nav-link" href="#"> Corvinal</a></li>
-                <li class="nav-item"> <a class="nav-link" href="#"> Lufa-Lufa</a></li>
-                  </ul>
-              </div> 
-          </nav>
+  <header class="navbar navbar-expand-lg navbar-dark flex-column bd-navbar">
+    <div class="text-center">     
+      <a class="navbar-brand">
+        <img src="img/hogwartslogo.png" class="img-fluid">
+        </a>  
+      </div>
+      <!-- BOTÃO PARA FORMULÁRIO--> 
+        <button type="button" class="btn btn-dark btn-sm align-center" id="botao">
+          <a>Seja um bruxo</a> 
+          </button>
+      <!-- BOTÃO PARA NAVBAR RESPONSIVA--> 
+      <button class="navbar-toggler align-right" data-toggle="collapse" data-target="#menu"  > 
+        <span class="navbar-toggler-icon"></span>
+        </button>
+    </header>     
+          <!-- NAVBAR RESPONSIVA--> 
+  <nav class="navbar-nav navbar-expand-lg " id="nav-dois">
+    <div class="collapse navbar-collapse justify-content-lg-center" id="menu">
+       <ul class="nav justify-content-center" id="nav">
+          <li class="nav-item active"> <a class="nav-link" href="#grifinoria"> Grifinória</a></li>
+          <li class="nav-item"> <a class="nav-link" href="#"> Sonserina</a></li>
+          <li class="nav-item"> <a class="nav-link" href="#"> Corvinal</a></li>
+          <li class="nav-item"> <a class="nav-link" href="#"> Lufa-Lufa</a></li>
+            </ul>
+          </div> 
+        </nav>
+        <!--CONTÉUDO--> 
+  <section class="container-fluid" id="grifinoria">
+    <div class="row">
+      <div class="col-8">
+        <h1> Grifinória</h1>
+          <p> Fundada por Gódrico Grifinória. Seu animal símbolo é o leão, e suas cores são o vermelho e o dourado. 
+            A professora Minerva McGonagall é a Diretora mais recente da Casa. Sir Nicholas de Mimsy-Porpington, também conhecido 
+            como "Nick Quase-Sem-Cabeça", é o fantasma residente. As características próprias dos estudantes selecionados para 
+            esta Casa são companheirismo e coragem. Atores, cantores e atletas muitas vezes são classificados nesta casa.</p>
+        </div>
+      <div class="col-4">
+        <img src="img/G_final_(1).png">
+      </div>  
+      </div>  
+    </section>
 </body>
 <footer>
   <script src="bootstrap/js/jquery.js"></script>
