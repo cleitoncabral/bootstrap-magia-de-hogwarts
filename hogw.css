@@ -5,12 +5,12 @@
   }
 #base,
 .bd-navbar{
-  background-color:rgb(226, 185, 48);
+  background-color:rgb(194, 158, 42);
   justify-content: center;
   align-content: center;
 }
 #nav-dois{
-  background-color: #bf900d;
+  background-color: #a37b0b;
 }
 .img-fluid{
   max-width: 65%;
@@ -57,7 +57,7 @@
   background-repeat: no-repeat;
 }
 #Grifinoria a{
-  font-size: 18px;
+  font-size: 20px;
   text-indent: 30px;
   text-align: left;
   margin-left: 40px;
@@ -81,7 +81,7 @@
   background-repeat: no-repeat;
 }
 #Sonserina a{
-  font-size: 18px;
+  font-size: 20px;
   text-indent: 30px;
   text-align: left;
   margin-top: 110px;
@@ -93,20 +93,60 @@
   color: #269046;
 }
 #Corvinal{
-  width: 100%;
+  background-size: 100%;
   height: 100vh;
-  background-color:#078db3 ;
+  background-image: url(../img/corvi.jpg);
+  background-repeat: no-repeat;
+}
+#Corvinal a{
+  font-size: 20px;
+  text-indent: 30px;
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 110px;
+  color: #0693bf;
+  text-justify: inter-word;
+  text-align: justify
+}
+.cor{
+  color: #0693bf;
 }
 #Lufa-Lufa{
-  width: 100%;
+  background-size: 100%;
   height: 100vh;
-  background-color:#dcb728;
+  background-image: url(../img/lufa.jpg);
+  background-repeat: no-repeat;
+}
+#Lufa-Lufa a{
+  font-size: 20px;
+  text-indent: 30px;
+  text-align: left;
+  margin-top: 110px;
+  color:#e1b524;
+  text-justify: inter-word;
+  text-align: justify 
+}
+.lufa{
+  color: #e1b524;
 }
 #padrao{
   margin: 0 auto;
 }
-#texto{
-  color: #aa1d22
+.famososGrif{
+  font-size: 18px;
+  color: #8f1a1e;
+}
+.famososSon{
+  font-size: 18px;
+  color: #1b6832;
+}
+.famososCor{
+  font-size: 18px;
+  color: #05566e;
+}
+.famososLufa{
+  font-size: 18px;
+  color: #a0811c;
 }
 /* PARTE RESPOSIVA*/
 @media (max-width: 575.98px){
