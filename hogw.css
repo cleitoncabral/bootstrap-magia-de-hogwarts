@@ -3,14 +3,18 @@
   padding: 0;
   box-sizing: border-box;
   }
+body {
+    scroll-behavior: smooth;
+    
+  }
 #base,
 .bd-navbar{
-  background-color:rgb(226, 185, 48);
+  background-color:rgb(194, 158, 42);
   justify-content: center;
   align-content: center;
 }
 #nav-dois{
-  background-color: #bf900d;
+  background-color: #a37b0b;
 }
 .img-fluid{
   max-width: 65%;
@@ -35,13 +39,16 @@
 }
 #logo {
   float: left;
-  padding: 3px; /*opcional*/
+  padding: 3px;
   text-align: center;
   width: auto;
   height: auto;
+  position: absolute;
 }
 #botao{
+  position: relative;
   float: right;
+ 
   background-color: #bf900d;
 }
 #botao a{
@@ -50,36 +57,135 @@
 #botao:hover{
   background-color: #967210;
 }
-#grifinoria{
-  width: 100%;
-  height: 100vh;
-  background-color:rgb(169, 50, 38) ;
+#padrao1{
+  padding-top: 100px;
+}
+#Grifinoria{
+  background-color: #090708;
+  height: auto;
+  min-height: 100vh;
+}
+#Grifinoria a{
+  font-size: 20px;
+  text-indent: 30px;
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 110px;
+  color: #aa1d22;
+  text-justify: inter-word;
+  text-align: justify
+}
+.gr{
+  color: #aa1d22;
 }
 .img-fluid{
-  width: 100%;
+  width: auto;
   height: auto;
-  margin: 0 auto;
 }
 #Sonserina{
-  width: 100%;
-  height: 100vh;
-  background-color:rgb(82, 190, 128);
+  background-color: #090708;
+  height: auto;
+  min-height: 100vh;
+}
+#Sonserina a{
+  font-size: 20px;
+  text-indent: 30px;
+  text-align: left;
+  margin-top: 110px;
+  color:#269046;
+  text-justify: inter-word;
+  text-align: justify 
+}
+.son{
+  color:#269046;
+}
+.bg-img{
+  background-image: url(img/ho.jpg);
+  padding: 180px 0;
+  background-size: cover !important;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.bg-img h2{
+  text-shadow: 2px solid;
+  size: 60px;
+  color:#bf900d;
 }
 #Corvinal{
-  width: 100%;
-  height: 100vh;
-  background-color:#078db3 ;
+  background-color: #090708;
+  height: auto;
+  min-height: 100vh;
+}
+#Corvinal a{
+  font-size: 20px;
+  text-indent: 30px;
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 110px;
+  color: #0693bf;
+  text-justify:inter-word;
+  text-align:justify
+}
+.cor{
+  color: #0693bf;
 }
 #Lufa-Lufa{
-  width: 100%;
-  height: 100vh;
-  background-color:#dcb728;
+  background-color: #090708;
+  height: auto;
+  min-height: 100vh;
+}
+#Lufa-Lufa a{
+  font-size: 20px;
+  text-indent: 30px;
+  text-align: left;
+  margin-top: 110px;
+  color:#e1b524;
+  text-justify: inter-word;
+  text-align: justify 
+}
+.lufa{
+  color: #e1b524;
 }
 #padrao{
   margin: 0 auto;
 }
-/* PARTE RESPOSIVA*/
-@media (max-width: 575.98px){
-  #nav{
-  }
+.famososGrif{
+  font-size: 18px;
+  color: #8f1a1e;
 }
+.famososSon{
+  font-size: 18px;
+  color: #1b6832;
+}
+.famososCor{
+  font-size: 18px;
+  color: #05566e;
+}
+.famososLufa{
+  font-size: 18px;
+  color: #a0811c;
+}
+/* PARTE RESPOSIVA
+@media (max-width: 1024px){
+  Grifinoria{
+  background-size: 100%;
+  background-image: url(img/grifi920.jpg);
+  background-repeat: no-repeat;
+  }
+  #Grifinoria a{ 
+    font-size: 35px;
+    text-indent: 40px;
+    text-align: right;
+    text-justify: inter-word;
+    text-align: justify;
+    margin-top: 10px;
+  }
+  #Sonserina{
+    background-size: 100%;
+    background-image: url(img/son920.jpg);
+    background-repeat: no-repeat;
+    }
+
+}*/
+
