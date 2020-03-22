@@ -5,7 +5,6 @@
   }
 body {
     scroll-behavior: smooth;
-    
   }
 #base,
 .bd-navbar{
@@ -30,7 +29,6 @@ body {
   color: black;
   padding: 8px;
   text-align: center;
-  
 }
 #nav li a:hover{
   font-family: 'Permanent Marker', cursive;
@@ -186,6 +184,5 @@ body {
     background-image: url(img/son920.jpg);
     background-repeat: no-repeat;
     }
-
 }*/
 
