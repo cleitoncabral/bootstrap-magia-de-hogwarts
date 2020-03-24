@@ -12,9 +12,10 @@ body {
   justify-content: center;
   align-content: center;
 }
-#nav-dois{
+.navbar-nav{
   background-color: #a37b0b;
 }
+
 .img-fluid{
   max-width: 65%;
   height: auto;
@@ -45,8 +46,8 @@ body {
 }
 #botao{
   position: relative;
+  top: 45px;
   float: right;
- 
   background-color: #bf900d;
 }
 #botao a{
@@ -56,7 +57,15 @@ body {
   background-color: #967210;
 }
 #padrao1{
-  padding-top: 100px;
+  margin: 0 auto;
+  padding: 200px 200px;
+}
+#casas{
+  height: 100%;
+  width: 200%;
+}
+#texto{
+  text-align: justify;
 }
 #Grifinoria{
   background-color: #090708;
@@ -68,7 +77,7 @@ body {
   text-indent: 30px;
   text-align: left;
   margin-left: 40px;
-  margin-top: 110px;
+  margin-top: 90px;
   color: #aa1d22;
   text-justify: inter-word;
   text-align: justify
@@ -164,9 +173,8 @@ body {
   font-size: 18px;
   color: #a0811c;
 }
-/* PARTE RESPOSIVA
-@media (max-width: 1024px){
-  Grifinoria{
+@media (max-width: 995px){
+ /* Grifinoria{
   background-size: 100%;
   background-image: url(img/grifi920.jpg);
   background-repeat: no-repeat;
@@ -183,6 +191,7 @@ body {
     background-size: 100%;
     background-image: url(img/son920.jpg);
     background-repeat: no-repeat;
-    }
-}*/
+    }*/
+
+}
 

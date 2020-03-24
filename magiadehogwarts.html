@@ -8,24 +8,20 @@
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
     <link href="hogw.css" rel="stylesheet">
 </head>
-<body>
-  <header class="navbar navbar-expand-lg navbar-dark flex-column bd-navbar">
-    <!-- BOTÃO PARA FORMULÁRIO--> 
-    <button type="button" class="btn btn-dark btn-sm ml-lg-auto mb-lg-auto" id="botao">
-      <a class="font-weight-bold">Seja um bruxo</a> 
-      </button>
-    <div class="text-center mc-lg-auto">     
-      <a class="navbar-brand">
-        <img src="img/hogwartslogo.png" class="img-fluid">
-        </a>  
+<body id="paginainicial">
+  <header class="navbar navbar-expand-lg navbar-dark flex-column bd-navbar" id="NavIncio">
+      <div class="align-items-center text-center">     
+       <a href="#paginainicial"><img src="img/hogwartslogo.png" class="img-fluid mt-3 mb-1"></a> 
     </div>
+    <!-- BOTÃO PARA FORMULÁRIO--> 
+    <a type="button" class="text-right btn btn-dark btn-sm  ml-lg-auto font-weight-bold ml-sm-auto ml-md-auto" id="botao"> Seja um bruxo</a>      
     <!-- BOTÃO PARA NAVBAR RESPONSIVA--> 
-    <button class="navbar-toggler align-right" data-toggle="collapse" data-target="#menu"  > 
-      <span class="navbar-toggler-icon"></span>
+    <button class="navbar-toggler text-right" data-toggle="collapse" data-target="#menu" aria-label="Toggle navigation" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation" > 
+      <span class="navbar-toggler-icon"> </span>
       </button>
     </header>     
           <!-- NAVBAR RESPONSIVA--> 
-  <nav class="navbar-nav navbar-expand-lg" id="nav-dois">
+  <nav class="navbar-nav navbar-expand-lg">
     <div class="collapse navbar-collapse justify-content-lg-center" id="menu">
        <ul class="nav justify-content-center" id="nav">
           <li class="nav-item active "> 
@@ -46,32 +42,34 @@
   <!--CONTÉUDO--> 
   <section class="container-fluid" id="Grifinoria">
     <div class="row">
-      <div class="col-xl-6 col-12 mt-5 pt-5 text-align text-left" id="padrao">
-        <h1 class="text-align text-center pt-5 gr">Grifinória</h1>
-          <p class="text-dark lead pt-3 pl-5 ml-4 mb-5" id="texto"><a>Fundada por Gódrico Grifinória. Seu animal símbolo é o leão, e suas cores são o vermelho e o dourado. 
+      <div class="col-xl-6 col-12 mt-5 pt-3 text-align pl-2 pr-2" id="padrao">
+        <h1 class="text-align text-center pt-1 gr">Grifinória</h1>
+          <p class="text-dark lead pt-2 ml-4 mr-4 mb-5 text-align" id="texto"><a> Fundada por Gódrico Grifinória. Seu animal símbolo é o leão, e suas cores são o vermelho e o dourado. 
             A professora Minerva McGonagall é a Diretora mais recente da Casa. Sir Nicholas de Mimsy-Porpington, também conhecido 
             como "Nick Quase-Sem-Cabeça", é o fantasma residente. As características próprias dos estudantes selecionados para 
             esta Casa são companheirismo e coragem. Atores, cantores e atletas muitas vezes são classificados nesta casa.</a></p>
-            <p class=" lead mt-5 pt-4 ml-4 pl-5 famososGrif"><strong>Bruxos famosos:</strong> Alvo Dumbledore, Rúbeo Hagrid, Harry Potter, Hermione Granger e Ronald Weasley.</p>
-        </div>
-        <div class="col-xl-6 col-12" id="padrao1">
-          <img class="text-align display-4 img-fluid"src="img/G_final_(1).png">
+          <p class=" lead mt-5 pt-3 ml-3 pl-4 famososGrif"><strong>Bruxos famosos:</strong> Alvo Dumbledore, Rúbeo Hagrid, Harry Potter, Hermione Granger e Ronald Weasley.</p>
+          <a><button type="button" class="btn btn-outline-danger mt-3 text-center">Mais de Grifinória</button></a>
+          </div>
+        <div class="col-xl-6 col-12 text-center" id="padrao1">
+          <img class="text-align display-4 img-fluid" id="casas" src="img/G_final_(1).png">
         </div>
     </div>
     </section>
     <section class="container-fluid" id="Sonserina">
       <div class="row">
-        <div class="col-xl-6">
+        <div class="col-xl-6 text-center">
           <img class=" text-align img-fluid" src="img/S_final.png">
         </div>
-        <div class="col-xl-6 col-12 mt-5 pt-5 text-align text-right pb-4">
-          <h1 class="text-align text-center pt-5 son"> Sonserina</h1>
-            <p class="text-dark lead pt-3 pr-5 mr-4"><a>É o lar dos estudantes mais astutos, engenhosos e ambiciosos. O seu animal símbolo é a cobra e suas cores são o verde e 
+        <div class="col-xl-6 col-12 mt-5 pt-3 text-align pb-2">
+          <h1 class="text-align text-center pt-3 son"> Sonserina</h1>
+            <p class="text-dark lead pt-3 pl-3 pr-3 text-align" id="texto"><a>É o lar dos estudantes mais astutos, engenhosos e ambiciosos. O seu animal símbolo é a cobra e suas cores são o verde e 
               o prata. O fantasma da casa é o Barão Sangrento . Fundado por Salazar Sonserina. A Sonserina tem uma reputação ruim, com 
               muitas pessoas afirmando que a casa é a fonte de muitos dos bruxos que envolvem com as Artes das Trevas na Grã-Bretanha, 
               o grande bruxo Merlin foi da Sonserina.</a></p>
-              <p class=" lead mt-5 pt-4 mr-4 pr-5 mb-4 pb-4 famososSon"><strong>Bruxos famosos:</strong> Luciano, Tom Riddle, Merlin, Barão Sangrento, Casa Black (Exceto Sirius Black), Horácio Slughorn e Draco Malfoy.</p>
-          </div>
+            <p class=" lead mt-5 pt-3 mr-3 pr-3 ml-4 mb-2 pb-4 famososSon"><strong>Bruxos famosos:</strong> Luciano, Tom Riddle, Merlin, Barão Sangrento, Casa Black (Exceto Sirius Black), Horácio Slughorn e Draco Malfoy.</p>
+            <a><button type="button" class="btn btn-outline-success mt-2 ml-4 mb-5 text-center">Mais de Sonserina</button></a>
+            </div>
       </div>  
     </section>
     <!--IMAGEM COVER DE HOGWARTS-->
@@ -81,29 +79,31 @@
     <!--IMAGEM COVER DE HOGWARTS-->
     <section class="container-fluid" id="Corvinal">
         <div class="row">
-          <div class="col-xl-6 col-12  mt-5 pt-5 text-align text-left">
+          <div class="col-xl-6 col-12 mt-3 pt-3 text-align pl-2 pr-2">
             <h1 class="text-align text-center pt-5 cor">Corvinal</h1>
-              <p class="text-dark  lead pt-3 pl-5 ml-4"><a>Fundada por Rowena Ravenclaw. Membros dessa casa são caracterizados por sua perspicácia, inteligência, criatividade e sabedoria. 
+              <p class="text-dark lead pt-2 ml-4 mr-4 mb-5 text-align" id="texto"><a>Fundada por Rowena Ravenclaw. Membros dessa casa são caracterizados por sua perspicácia, inteligência, criatividade e sabedoria. 
                 Os alunos são os que tiram melhores notas, e são muito estudiosos. Suas cores oficiais são o azul e o bronze, e seu símbolo é a águia.
                  O fantasma da casa, que em vida era a filha da fundadora, é a Dama Cinzenta.</a></p>
-                 <p class=" lead mt-5 pt-4 ml-4 pl-5 famososCor"><strong> Bruxos famosos:</strong> Basílio Fronsac †, Murta Elizabeth Warren †, Sibila Trelawney e Luna Lovegood</p>
-        </div>
-          <div class="col-xl-6 col-12 ">
-            <img class="text-align img-fluid" src="img/Ravenclaw_(Símbolo_Corvinal).png">
+              <p class=" lead mt-4 pt-4 ml-4 pl-4 famososCor"><strong> Bruxos famosos:</strong> Basílio Fronsac †, Murta Elizabeth Warren †, Sibila Trelawney e Luna Lovegood</p>
+              <a><button type="button" class="btn btn-outline-info mt-3 text-center">Mais de Corvinal</button></a>
+                </div>
+          <div class="col-xl-6 col-12 text-center">
+            <img class="text-align img-fluid mt-5" src="img/Ravenclaw_(Símbolo_Corvinal).png">
           </div>  
         </div>
     </section>  
     <section class="container-fluid" id="Lufa-Lufa">
       <div class="row">
-        <div class="col-xl-6 col-12">
-          <img class="text-align img-fluid" src="img/H_final.png">
+        <div class="col-xl-6 col-12 text-center">
+          <img class="text-align img-fluid mt-5" src="img/H_final.png">
         </div>  
-      <div class="col-xl-6 col-12 mt-5 pt-5 text-align text-right">
+      <div class="col-xl-6 col-12 mt-3 pt-3 text-align pb-2">
         <h1 class="text-align text-center pt-5 lufa">Lufa-Lufa</h1>
-          <p class="text-dark lead pt-3 pr-5 mr-4"><a>Sua fundadora é a bruxa Helga Lufa-Lufa. A Diretora da Casa é Pomona Sprout. O Frei Gorducho é o fantasma residente. A Lufa-Lufa 
+          <p class="text-dark lead pt-3 pl-3 pr-3 text-align" id="texto"><a>Sua fundadora é a bruxa Helga Lufa-Lufa. A Diretora da Casa é Pomona Sprout. O Frei Gorducho é o fantasma residente. A Lufa-Lufa 
             é a mais inclusiva das quatro casas e valoriza o trabalho duro, a paciência, a lealdade e o jogo limpo em vez de aptidão em seus 
             membros. Seu animal símbolo é o texugo, e suas cores são o amarelo e o preto.</a></p>
-            <p class=" lead mt-5 pt-4 mr-4 pr-5 famososLufa"><strong>Bruxos famosos:</strong> Pomona Sprout, Newt Scamander, Ninfadora Tonks e Cedrico Diggory.</p>
+          <p class=" lead mt-5 ml-4 mb-5 text-center famososLufa"><strong>Bruxos famosos:</strong> Pomona Sprout, Newt Scamander, Ninfadora Tonks e Cedrico Diggory.</p>
+          <a><button type="button" class="btn btn-outline-warning mt-2 ml-4 mb-5 text-center">Mais de Lufa-Lufa</button></a>
           </div>
       </div>  
     </section>         
@@ -111,5 +111,6 @@
 <footer>
   <script src="bootstrap/js/jquery.js"></script>
   <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../bootstrap-magia-de-hogwarts/magia.js"></script>
 </footer>
 </html>
