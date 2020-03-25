@@ -12,7 +12,11 @@ body {
   justify-content: center;
   align-content: center;
 }
+<<<<<<< HEAD
 .navbar-nav{
+=======
+#nav-dois{
+>>>>>>> f07db0ff6d67d6eadec8c5592f4c0fc27994146b
   background-color: #a37b0b;
 }
 #logo2{
@@ -55,6 +59,7 @@ body {
 #botao:hover{
   background-color: #967210;
 }
+<<<<<<< HEAD
 #padrao1{
   margin: 0 auto;
   padding: 180px 100px;
@@ -67,13 +72,24 @@ body {
   background-color: #090708;
   height: auto;
   min-height: 100vh;
+=======
+#Grifinoria{
+  background-size: 100%;
+  height: 100vh;
+  background-image: url(../img/grifi.jpg);
+  background-repeat: no-repeat;
+>>>>>>> f07db0ff6d67d6eadec8c5592f4c0fc27994146b
 }
 #Grifinoria a{
   font-size: 20px;
   text-indent: 30px;
   text-align: left;
   margin-left: 40px;
+<<<<<<< HEAD
   margin-top: 90px;
+=======
+  margin-top: 110px;
+>>>>>>> f07db0ff6d67d6eadec8c5592f4c0fc27994146b
   color: #aa1d22;
   text-justify: inter-word;
   text-align: justify
@@ -86,9 +102,16 @@ body {
   height: auto;
 }
 #Sonserina{
+<<<<<<< HEAD
   background-color: #090708;
   height: auto;
   min-height: 100vh;
+=======
+  background-size: 100%;
+  height: 100vh;
+  background-image: url(../img/sons.jpg);
+  background-repeat: no-repeat;
+>>>>>>> f07db0ff6d67d6eadec8c5592f4c0fc27994146b
 }
 #Sonserina a{
   font-size: 20px;
@@ -100,6 +123,7 @@ body {
   text-align: justify 
 }
 .son{
+<<<<<<< HEAD
   color:#269046;
 }
 .bg-img{
@@ -119,6 +143,15 @@ body {
   background-color: #090708;
   height: auto;
   min-height: 100vh;
+=======
+  color: #269046;
+}
+#Corvinal{
+  background-size: 100%;
+  height: 100vh;
+  background-image: url(../img/corvi.jpg);
+  background-repeat: no-repeat;
+>>>>>>> f07db0ff6d67d6eadec8c5592f4c0fc27994146b
 }
 #Corvinal a{
   font-size: 20px;
@@ -127,16 +160,28 @@ body {
   margin-left: 40px;
   margin-top: 110px;
   color: #0693bf;
+<<<<<<< HEAD
   text-justify:inter-word;
   text-align:justify
+=======
+  text-justify: inter-word;
+  text-align: justify
+>>>>>>> f07db0ff6d67d6eadec8c5592f4c0fc27994146b
 }
 .cor{
   color: #0693bf;
 }
 #Lufa-Lufa{
+<<<<<<< HEAD
   background-color: #090708;
   height: auto;
   min-height: 100vh;
+=======
+  background-size: 100%;
+  height: 100vh;
+  background-image: url(../img/lufa.jpg);
+  background-repeat: no-repeat;
+>>>>>>> f07db0ff6d67d6eadec8c5592f4c0fc27994146b
 }
 #Lufa-Lufa a{
   font-size: 20px;
@@ -169,6 +214,7 @@ body {
   font-size: 18px;
   color: #a0811c;
 }
+<<<<<<< HEAD
 @media (max-width: 504px){
   #padrao1{
     margin: 0 auto;
@@ -179,6 +225,12 @@ body {
   #padrao1{
     margin: 0 auto;
     padding: 80px 80px;
+=======
+/* PARTE RESPOSIVA*/
+@media (max-width: 575.98px){
+  #grif{
+    size: 50px;
+>>>>>>> f07db0ff6d67d6eadec8c5592f4c0fc27994146b
   }
  
 }
