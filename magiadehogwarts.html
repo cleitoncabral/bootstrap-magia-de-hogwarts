@@ -10,14 +10,18 @@
 </head>
 <body id="paginainicial">
   <header class="navbar navbar-expand-lg navbar-dark flex-column bd-navbar" id="NavIncio">
-      <div class="align-items-center text-center">     
-       <a href="#paginainicial"><img src="img/hogwartslogo.png" class="img-fluid mt-3 mb-1"></a> 
-    </div>
-    <!-- BOTÃO PARA FORMULÁRIO--> 
-    <a type="button" class="text-right btn btn-dark btn-sm  ml-lg-auto font-weight-bold ml-sm-auto ml-md-auto" id="botao"> Seja um bruxo</a>      
+    
+      <div class=" align-items-center text-center">     
+        <a href="#paginainicial"><img src="img/hogwartslogo.png" class="img-fluid "id="logo2"></a> 
+       <!-- BOTÃO PARA FORMULÁRIO--> 
+          <a type="button" class=" btn text-dark btn-sm mt-4 font-weight-bold" id="botao" href="bruxo.html"> Seja um bruxo</a>  
+      
+      </div>
+        
     <!-- BOTÃO PARA NAVBAR RESPONSIVA--> 
-    <button class="navbar-toggler text-right" data-toggle="collapse" data-target="#menu" aria-label="Toggle navigation" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation" > 
-      <span class="navbar-toggler-icon"> </span>
+    <button class="navbar-toggler  text-right" data-toggle="collapse" data-target="#menu" aria-label="Toggle navigation" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation" > 
+      <span class="navbar-toggler-icon navbar-icon-sm"></span>
+      <a>Casas</a>
       </button>
     </header>     
           <!-- NAVBAR RESPONSIVA--> 
@@ -49,16 +53,16 @@
             como "Nick Quase-Sem-Cabeça", é o fantasma residente. As características próprias dos estudantes selecionados para 
             esta Casa são companheirismo e coragem. Atores, cantores e atletas muitas vezes são classificados nesta casa.</a></p>
           <p class=" lead mt-5 pt-3 ml-3 pl-4 famososGrif"><strong>Bruxos famosos:</strong> Alvo Dumbledore, Rúbeo Hagrid, Harry Potter, Hermione Granger e Ronald Weasley.</p>
-          <a><button type="button" class="btn btn-outline-danger mt-3 text-center">Mais de Grifinória</button></a>
+          <a><button type="button" class="btn btn-outline-danger mt-3 text-center" data-toggle="modal" data-target="Modalgrifi">Mais de Grifinória</button></a>
           </div>
         <div class="col-xl-6 col-12 text-center" id="padrao1">
-          <img class="text-align display-4 img-fluid" id="casas" src="img/G_final_(1).png">
+          <img class="text-align img-fluid" id="casas" src="img/G_final_(1).png">
         </div>
     </div>
     </section>
     <section class="container-fluid" id="Sonserina">
       <div class="row">
-        <div class="col-xl-6 text-center">
+        <div class="col-xl-6 text-center" id="padrao1">
           <img class=" text-align img-fluid" src="img/S_final.png">
         </div>
         <div class="col-xl-6 col-12 mt-5 pt-3 text-align pb-2">
@@ -87,15 +91,15 @@
               <p class=" lead mt-4 pt-4 ml-4 pl-4 famososCor"><strong> Bruxos famosos:</strong> Basílio Fronsac †, Murta Elizabeth Warren †, Sibila Trelawney e Luna Lovegood</p>
               <a><button type="button" class="btn btn-outline-info mt-3 text-center">Mais de Corvinal</button></a>
                 </div>
-          <div class="col-xl-6 col-12 text-center">
-            <img class="text-align img-fluid mt-5" src="img/Ravenclaw_(Símbolo_Corvinal).png">
+          <div class="col-xl-6 col-12 text-center" id="padrao1">
+            <img class="text-align img-fluid" src="img/Ravenclaw_(Símbolo_Corvinal).png">
           </div>  
         </div>
     </section>  
     <section class="container-fluid" id="Lufa-Lufa">
       <div class="row">
-        <div class="col-xl-6 col-12 text-center">
-          <img class="text-align img-fluid mt-5" src="img/H_final.png">
+        <div class="col-xl-6 col-12 text-center" id="padrao1">
+          <img class="text-align img-fluid" src="img/H_final.png">
         </div>  
       <div class="col-xl-6 col-12 mt-3 pt-3 text-align pb-2">
         <h1 class="text-align text-center pt-5 lufa">Lufa-Lufa</h1>
@@ -106,7 +110,12 @@
           <a><button type="button" class="btn btn-outline-warning mt-2 ml-4 mb-5 text-center">Mais de Lufa-Lufa</button></a>
           </div>
       </div>  
-    </section>         
+    </section>
+    <footer class="container-fluid bg-dark text-center">
+      <a class="text-light ">Cleiton Cabral</a>
+    </footer> 
+    <!--MODAIS DAS CASAS--> 
+    <!--MODAL GRIFINORIA-->     
 </body>
 <footer>
   <script src="bootstrap/js/jquery.js"></script>

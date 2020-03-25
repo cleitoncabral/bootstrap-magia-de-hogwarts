@@ -15,8 +15,7 @@ body {
 .navbar-nav{
   background-color: #a37b0b;
 }
-
-.img-fluid{
+#logo2{
   max-width: 65%;
   height: auto;
   min-width: 25%;
@@ -46,8 +45,8 @@ body {
 }
 #botao{
   position: relative;
-  top: 45px;
   float: right;
+  border: 1px solid #111;
   background-color: #bf900d;
 }
 #botao a{
@@ -58,12 +57,9 @@ body {
 }
 #padrao1{
   margin: 0 auto;
-  padding: 200px 200px;
+  padding: 180px 100px;
 }
-#casas{
-  height: 100%;
-  width: 200%;
-}
+
 #texto{
   text-align: justify;
 }
@@ -173,25 +169,17 @@ body {
   font-size: 18px;
   color: #a0811c;
 }
-@media (max-width: 995px){
- /* Grifinoria{
-  background-size: 100%;
-  background-image: url(img/grifi920.jpg);
-  background-repeat: no-repeat;
+@media (max-width: 504px){
+  #padrao1{
+    margin: 0 auto;
+    padding: 100px 100px;
   }
-  #Grifinoria a{ 
-    font-size: 35px;
-    text-indent: 40px;
-    text-align: right;
-    text-justify: inter-word;
-    text-align: justify;
-    margin-top: 10px;
+}
+@media (max-width: 1200px){
+  #padrao1{
+    margin: 0 auto;
+    padding: 80px 80px;
   }
-  #Sonserina{
-    background-size: 100%;
-    background-image: url(img/son920.jpg);
-    background-repeat: no-repeat;
-    }*/
-
+ 
 }
 
