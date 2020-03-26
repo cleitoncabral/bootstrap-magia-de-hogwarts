@@ -169,6 +169,12 @@ body {
   font-size: 18px;
   color: #a0811c;
 }
+/* CSS DO MODAL*/
+.modal-content{
+  background-color: black;
+}
+
+/* FIM DO CSS*/
 @media (max-width: 504px){
   #padrao1{
     margin: 0 auto;
