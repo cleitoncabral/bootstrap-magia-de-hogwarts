@@ -82,6 +82,7 @@ body {
   color: #aa1d22;
 }
 .img-fluid{
+  size: 30%;
   width: auto;
   height: auto;
 }
