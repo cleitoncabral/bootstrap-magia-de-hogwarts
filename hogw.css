@@ -111,7 +111,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.bg-img h2{
+.bg-img a{
   text-shadow: 2px solid;
   size: 60px;
   color:#bf900d;
@@ -174,8 +174,15 @@ body {
 .modal-content{
   background-color: black;
 }
-
+.modal-body{
+  color: #8f1a1e;
+}
 /* FIM DO CSS*/
+/* CSS DO CARD*/
+#sobre{
+  width: 100%;
+  background-color: #090708;
+}
 @media (max-width: 504px){
   #padrao1{
     margin: 0 auto;
