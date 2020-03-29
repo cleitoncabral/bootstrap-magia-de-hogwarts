@@ -44,6 +44,7 @@ body {
   position: absolute;
 }
 #botao{
+  display: flex;
   position: relative;
   float: right;
   border: 1px solid #111;
@@ -56,12 +57,20 @@ body {
   background-color: #967210;
 }
 #padrao1{
-  margin: 0 auto;
-  padding: 180px 100px;
+  padding-top: 8em;
+  padding-left: 2em;
+  padding-right: 5em;
 }
-
+#padrao2{
+  padding-top: 8em;
+  padding-left: 5em;
+  padding-right: 2em;
+}
 #texto{
   text-align: justify;
+}
+#navIncio{
+  display: flex;
 }
 #Grifinoria{
   background-color: #090708;
