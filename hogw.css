@@ -208,17 +208,35 @@ body {
   background-repeat: no-repeat;
 }
 .bgd-bruxo{
+  margin-left: 50px;
   align-items: center;
-  width: 88%;
+  width: 95%;
   height: 93%;
-  background-color: #001220;
+  background-color: #010a13;
 }
-
-
+.formulario{
+  background: none;
+  background-color: none;
+  color:white;
+  border:none;
+  border-bottom: #244b68 solid 2px ;
+}
+.formulario:hover{
+  border-bottom: #244b68 solid 4px ;
+  border-radius: 3px;
+}
+/*COR PARA OS FORMS 244b68 010a13 */
 @media (max-width: 504px){
   #padrao1{
     margin: 0 auto;
     padding: 100px 100px;
+  }
+  .bgd-bruxo{
+    align-items: center;
+    margin-left: 55px;
+    width: 95%;
+    height: 93%;
+    background-color: #010a13;
   }
 }
 @media (max-width: 1200px){
@@ -226,6 +244,12 @@ body {
     margin: 0 auto;
     padding: 80px 80px;
   }
- 
+  .bgd-bruxo{
+    margin-left: 55px;
+    align-items: center;
+    width: 95%;
+    height: 93%;
+    background-color: #010a13;
+  }
 }
 
