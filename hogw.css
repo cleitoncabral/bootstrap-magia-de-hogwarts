@@ -212,31 +212,50 @@ body {
   align-items: center;
   width: 95%;
   height: 93%;
-  background-color: #010a13;
+  
 }
 .formulario{
   background: none;
   background-color: none;
   color:white;
-  border:none;
-  border-bottom: #244b68 solid 2px ;
+  border: #343a3f solid 2px ;
+  border-radius: 3px;
 }
 .formulario:hover{
-  border-bottom: #244b68 solid 4px ;
+  border: #244b68 solid 2px ;
   border-radius: 3px;
 }
 /*COR PARA OS FORMS 244b68 010a13 */
+#selecao{
+  background: none;
+  background-color: none;
+  border: #343a3f solid 2px ;
+  border-radius: 3px;
+  color: white;
+}
+#selecao:hover{
+  border: #244b68 solid 2px ;
+  border-radius: 3px;
+}
+#alinhamentoBotao{
+  background-color:none ;
+  border: #343a3f solid 2px ;
+  border-radius: 3px;
+  color: white;
+}
+#alinhamentoBotao:hover{
+  border: #244b68 solid 2px ;
+  border-radius: 3px;
+}
 @media (max-width: 504px){
   #padrao1{
     margin: 0 auto;
     padding: 100px 100px;
   }
   .bgd-bruxo{
-    align-items: center;
     margin-left: 55px;
     width: 95%;
     height: 93%;
-    background-color: #010a13;
   }
 }
 @media (max-width: 1200px){
@@ -249,7 +268,16 @@ body {
     align-items: center;
     width: 95%;
     height: 93%;
-    background-color: #010a13;
+  }
+  .formulario{
+    text-align: center;
+  }
+  #alinhamento{
+    align-items: center;
+    text-align: center;
+  }
+  #selecao{
+    text-align: center;
   }
 }
 

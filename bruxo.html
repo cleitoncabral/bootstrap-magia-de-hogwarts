@@ -46,23 +46,36 @@
     <div class="col-10 col-sm-8 col-md-8 col-lg-7 pr-lg-5 pt-5 text-center " id="teste">
       <div class="bgd-bruxo pt-2 rounded ">
         <h2 class="page-section-heading text-light text-uppercase mr-4 mt-4 pb-3">Seja um Bruxo</h2>
-        <form class="text-left text-light ">
-          <div class="row text-center">
-            <div class="col-lg">
+        <form class="text-left text-light pl-4">
+          <div class="row" id="alinhamento">
+            <div class="col-lg pl-4">
               <div class="form-group text-light ">
               <label class="text-left" for="nomeBruxo">Nome</label>
               <br>
-              <input type="name" class="formulario" id="nomeBruxo" placeholder="Digite seu nome">
+              <input type="name" class="formulario pl-1" id="nomeBruxo" placeholder="Digite seu nome">
               </div>
             </div>
-            <div class="col-lg" >
+            <div class="col-lg pl-4">
               <div class="form-group text-light">
               <label for="nomeBruxo">Sobrenome bruxo</label>
               <br>
-              <input type="name" class="formulario" id="sobrenomeBruxo" placeholder="Digite seu sobrenome">
+              <input type="name" class="formulario pl-1" id="sobrenomeBruxo" placeholder="Digite seu sobrenome">
               </div>
             </div>
           </div>
+          <div class="row pl-2" id="alinhamento">
+            <div class=" col-7">
+              <label>Escolha sua casa</label>
+              <select class="form-control form-control-sm" id="selecao">
+                <option id="selecao" style="background-color:#000;">Deixar a magia escolher por você</option>
+                <option id="selecao" style="background-color:#000;">Lufa-Lufa</option>
+                <option id="selecao" style="background-color:#000;">Corvinal</option>
+                <option id="selecao" style="background-color:#000;">Sonserina</option>
+                <option id="selecao" style="background-color:#000;">Grifinória</option>
+              </select>
+            </div>
+          </div>
+          <button type="submit" class="btn mt-3 ml-2" id="alinhamentoBotao">Enviar</button>
         </form>
       </div>
     </div>
