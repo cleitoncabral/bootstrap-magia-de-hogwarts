@@ -207,18 +207,12 @@ body {
   background-size: 100vh;
   background-repeat: no-repeat;
 }
-.bgd-bruxo{
-  margin-left: 50px;
-  align-items: center;
-  width: 95%;
-  height: 93%;
-  
-}
+
 .formulario{
   background: none;
   background-color: none;
   color:white;
-  border: #343a3f solid 2px ;
+  border: #343a3f solid 1px ;
   border-radius: 3px;
 }
 .formulario:hover{
@@ -229,7 +223,7 @@ body {
 #selecao{
   background: none;
   background-color: none;
-  border: #343a3f solid 2px ;
+  border: #343a3f solid 1px ;
   border-radius: 3px;
   color: white;
 }
@@ -239,7 +233,7 @@ body {
 }
 #alinhamentoBotao{
   background-color:none ;
-  border: #343a3f solid 2px ;
+  border: #343a3f solid 1px ;
   border-radius: 3px;
   color: white;
 }
@@ -252,32 +246,14 @@ body {
     margin: 0 auto;
     padding: 100px 100px;
   }
-  .bgd-bruxo{
-    margin-left: 55px;
-    width: 95%;
-    height: 93%;
-  }
 }
 @media (max-width: 1200px){
   #padrao1{
     margin: 0 auto;
     padding: 80px 80px;
   }
-  .bgd-bruxo{
-    margin-left: 55px;
+  #teste{
     align-items: center;
-    width: 95%;
-    height: 93%;
-  }
-  .formulario{
-    text-align: center;
-  }
-  #alinhamento{
-    align-items: center;
-    text-align: center;
-  }
-  #selecao{
-    text-align: center;
   }
 }
 
