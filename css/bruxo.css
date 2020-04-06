@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+      scroll-behavior: smooth;
+    }
+  #base,
+  .bd-navbar{
+    background-color:rgb(194, 158, 42);
+    justify-content: center;
+    align-content: center;
+  }
+  .navbar-nav{
+    background-color: #a37b0b;
+  }
+  #logo2{
+    max-width: 65%;
+    height: auto;
+    min-width: 25%;
+  }
+  #nav li{
+    width: 141px;
+    height: 40px;
+  }
+  #nav li a{
+    font-family: 'Permanent Marker', cursive;
+    color: black;
+    padding: 8px;
+    text-align: center;
+  }
+  #nav li a:hover{
+    font-family: 'Permanent Marker', cursive;
+    padding: 8px;
+    background-color: #967210;
+  }
+  #logo {
+    float: left;
+    padding: 3px;
+    text-align: center;
+    width: auto;
+    height: auto;
+    position: absolute;
+  }
+  /* CSS DO FORMULÁRIO BRUXO*/
+#bg-bruxo{
+  background-color: #000;
+  }
+#teste{
+  height: 100vh;
+  width: 100%;
+}
+#img-bruxo{
+  background-image: url(../img/ho2.jpg);
+  background-size: 100vh;
+  background-repeat: no-repeat;
+}
+.formulario{
+  background: none;
+  background-color: none;
+  color:white;
+  border: none;
+  border-bottom: #343a3f solid 1px ;
+  border-radius: 3px;
+  outline: 0;
+}
+.formulario:hover{
+  border: none;
+  border-bottom: #244b68 solid 2px ;
+  border-radius: 3px;
+}
+#selecao{
+  background: none;
+  background-color: none;
+  border: none;
+  border-bottom: #343a3f solid 1px ;
+  border-radius: 3px;
+  color: white;
+  outline: none;
+  box-shadow: 0 0 0 0;
+}
+#selecao:hover{
+  border: none;
+  border-bottom: #244b68 solid 2px ;
+  border-radius: 3px;
+}
+#alinhamentoBotao{
+  text-align: center;
+  background-color:none ;
+  border: #343a3f solid 1px ;
+  border-radius: 3px;
+  color: white;
+}
+#alinhamentoBotao:hover{
+  border: #244b68 solid 2px ;
+  border-radius: 3px;
+}
+/* RESPONSIVIDADE*/
+@media (max-width: 1200px){
+  #teste{
+    align-items: center;
+  }
+}

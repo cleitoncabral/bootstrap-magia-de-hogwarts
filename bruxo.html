@@ -7,7 +7,7 @@
     <title> Magia de Hogwarts - Seja um Bruxo</title>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
-    <link href="hogw.css" rel="stylesheet">
+    <link href="css/bruxo.css" rel="stylesheet">
     <link rel="icon" type="imagem/png" href="img/hog.png"/>
 </head>
 <body id="paginainicial">
@@ -44,42 +44,45 @@
 <section class="container-fluid align-items-center">
   <div class="row pl-5"  id="bg-bruxo">
     <div class="col-10 col-sm-8 col-md-8 col-lg-7 pr-lg-5 pt-5 text-center" id="teste">
-      <div class="bgd-bruxo pt-2 rounded ">
-        <h2 class="page-section-heading text-light text-uppercase  mt-4 pb-3">Seja um Bruxo</h2>
+      <div class="bgd-bruxo pt-2 rounded mt-xl-5 mt-lg-3 mt-md-1">
+        <h2 class="page-section-heading text-light text-uppercase  mt-xl-4 mt-md-2 pb-3">Seja um Bruxo</h2>
         <form class="text-left align-items-center text-light ml-5">
           <div class="row" id="alinhamento">
             <div class="col-lg pl-4">
               <div class="form-group text-light ">
               <label class="text-left" for="nomeBruxo">Nome</label>
               <br>
-              <input type="name" class="formulario pr-5 pl-1" id="nomeBruxo" placeholder="Digite seu nome">
+              <input type="name" class="formulario pr-5 pl-2 pt-1 pb-1" id="nomeBruxo" placeholder="Digite seu nome">
               </div>
             </div>
             <div class="col-lg pl-4">
               <div class="form-group text-light">
               <label for="nomeBruxo">Sobrenome bruxo</label>
               <br>
-              <input type="name" class="formulario pr-5 pl-1" id="sobrenomeBruxo" placeholder="Digite seu sobrenome">
+              <input type="name" class="formulario pr-5 pl-2 pt-1 pb-1" id="sobrenomeBruxo" placeholder="Digite seu sobrenome">
               </div>
             </div>
           </div>
-            <div class="row pl-2" id="alinhamento">
+          <div class="row pl-2" id="alinhamento">
             <div class="col-lg">
-              <label for="emailAcesso">E-mail</label>
-              <br>
-              <input type="email" class="formulario pl-1 pr-5 text-left" id="emailAcesso" placeholder="Digite seu e-mail">
+              <div class="form-group text-light">
+                <label for="emailAcesso">E-mail</label>
+                <br>
+                <input type="email" class="formulario pl-2 pr-5 pt-1 pb-1" id="emailAcesso" placeholder="Digite seu e-mail">
+              </div>
             </div>
             <div class="col-lg ">
-                <label for="senhaAcesso">Senha</label>
-                <br>
-                <input type="password" placeholder="Digite sua senha" class="formulario pl-1 pr-5" id="senhaAcesso">
-              </div>
-
-          </div>
-          <div class="row pl-2 mt-4" id="alinhamento">
+                <div class="form-group text-light ">
+                  <label for="senhaAcesso">Senha</label>
+                  <br>
+                  <input type="password" placeholder="Digite sua senha" class="formulario pl-2 pr-5 pt-1 pb-1" id="senhaAcesso">
+                </div>
+            </div>
+        </div>
+          <div class="row pl-2 mt-3" id="alinhamento">
             <div class="col-lg">
               <label>Escolha sua casa</label>
-              <select class="form-control form-control-sm" id="selecao" style="width: 88%;">
+              <select class="form-control form-control" id="selecao" style="width: 88%;">
                 <option id="selecao" style="background-color:#000;">Deixar a magia escolher por você</option>
                 <option id="selecao" style="background-color:#000;">Lufa-Lufa</option>
                 <option id="selecao" style="background-color:#000;">Corvinal</option>
@@ -88,7 +91,7 @@
               </select>
             </div>
             </div>
-              <div class="row mt-4 pl-lg-5 pl-md-5 pl-sm-3 pl-2">
+              <div class="row mt-3 pl-lg-5 pl-md-5 pl-sm-3 pl-2">
               <div class="col-lg align-items-center ">
                 <button type="submit" class="btn btn-block mt-3 ml-lg-4 ml-4" id="alinhamentoBotao" id="selecao" style="width: 70%;">Enviar</button>
               </div>
