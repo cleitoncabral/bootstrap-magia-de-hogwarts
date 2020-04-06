@@ -63,15 +63,23 @@
               </div>
             </div>
           </div>
-            <div class="row pl-2 " id="alinhamento">
+            <div class="row pl-2" id="alinhamento">
             <div class="col-lg">
-              <label>E-mail</label>
+              <label for="emailAcesso">E-mail</label>
               <br>
               <input type="email" class="formulario pl-1 pr-5 text-left" id="emailAcesso" placeholder="Digite seu e-mail">
             </div>
+            <div class="col-lg ">
+                <label for="senhaAcesso">Senha</label>
+                <br>
+                <input type="password" placeholder="Digite sua senha" class="formulario pl-1 pr-5" id="senhaAcesso">
+              </div>
+
+          </div>
+          <div class="row pl-2 mt-4" id="alinhamento">
             <div class="col-lg">
               <label>Escolha sua casa</label>
-              <select class="form-control form-control-sm" id="selecao" style="width: 70%;">
+              <select class="form-control form-control-sm" id="selecao" style="width: 88%;">
                 <option id="selecao" style="background-color:#000;">Deixar a magia escolher por você</option>
                 <option id="selecao" style="background-color:#000;">Lufa-Lufa</option>
                 <option id="selecao" style="background-color:#000;">Corvinal</option>
@@ -79,17 +87,10 @@
                 <option id="selecao" style="background-color:#000;">Grifinória</option>
               </select>
             </div>
-          </div>
-          <div class="row pl-2 mt-2" id="alinhamento">
-              <div class="col-lg">
-                <label>Senha</label>
-                <br>
-                <input type="password" placeholder="Digite sua senha" class="formulario pl-1 pr-5" id="senhaAcesso">
-              </div>
             </div>
-              <div class="row pl-4">
-              <div class="col-lg text-center">
-                <button type="submit" class="btn btn-block mt-3 ml-5" id="alinhamentoBotao" id="selecao" style="width: 70%;">Enviar</button>
+              <div class="row mt-4 pl-lg-5 pl-md-5 pl-sm-3 pl-2">
+              <div class="col-lg align-items-center ">
+                <button type="submit" class="btn btn-block mt-3 ml-lg-4 ml-4" id="alinhamentoBotao" id="selecao" style="width: 70%;">Enviar</button>
               </div>
           </div>
         </form>

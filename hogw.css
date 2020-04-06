@@ -196,7 +196,6 @@ body {
 /* CSS DO FORMULÁRIO BRUXO*/
 #bg-bruxo{
   background-color: #000;
-  
 }
 #teste{
   height: 100vh;
@@ -207,7 +206,6 @@ body {
   background-size: 100vh;
   background-repeat: no-repeat;
 }
-
 .formulario{
   background: none;
   background-color: none;
@@ -219,7 +217,6 @@ body {
   border: #244b68 solid 2px ;
   border-radius: 3px;
 }
-/*COR PARA OS FORMS 244b68 010a13 */
 #selecao{
   background: none;
   background-color: none;
@@ -232,6 +229,7 @@ body {
   border-radius: 3px;
 }
 #alinhamentoBotao{
+  text-align: center;
   background-color:none ;
   border: #343a3f solid 1px ;
   border-radius: 3px;
