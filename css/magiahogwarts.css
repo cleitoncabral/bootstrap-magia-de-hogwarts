@@ -192,6 +192,14 @@ body {
   width: 100%;
   background-color: #090708;
 }
+.fundoHog{
+  width: 100%;
+  background-color:#967210;
+  border-radius: 20px;
+}
+#cards{
+  background-color: #090708;
+}
 /*CSS DO ICONE*/
 #icone1{
   color: white;
