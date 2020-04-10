@@ -44,16 +44,17 @@ body {
   position: absolute;
 }
 #botao{
-  display: flex;
-  position: relative;
+  display: block;
   float: right;
-  border: 1px solid #111;
+  position: static;
+  border: 1px solid #967210;
   background-color: #bf900d;
 }
 #botao a{
   color:black ;
 }
 #botao:hover{
+  border: 1px solid #967210;
   background-color: #967210;
 }
 #padrao1{
@@ -198,7 +199,7 @@ body {
   border-radius: 20px;
 }
 #cards{
-  background-color: #090708;
+  background-color: #010101;
 }
 /*CSS DO ICONE*/
 #icone1{
